@@ -134,8 +134,9 @@ function initMap() {
   const okml = await new google.maps.KmlLayer({
     //url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",
     //url: "https://DzungDoMinh.github.io/kml3.kml",
+    url: "kml3.kml",
     //url: "file:///C:/1_GoogleMap/MD_map_tools/kml3.kml",
-    url: "https://36fa6ff1-de80-42d2-9fc8-576a1fe11ccd.usrfiles.com/ugd/36fa6f_f353985b437b457c9a48beb91557e956.kml",
+    //url: "https://36fa6ff1-de80-42d2-9fc8-576a1fe11ccd.usrfiles.com/ugd/36fa6f_f353985b437b457c9a48beb91557e956.kml",
     //url: "https://drive.google.com/drive/folders/1mOnwu-UZwDExFM3Dzwkpei2PBP0nqmDf/kml3.kml", // Google driver - not OK
     //url: "https://1drv.ms/u/s!Aj7tLhBboez6xXxaJ8s9FhlUQSrI?e=urNB1k/kml3.kml", // OneDrive - not OK
     map: map,
