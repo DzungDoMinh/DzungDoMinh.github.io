@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "imagelink": "file:///C:/tmp/thuba.jpg",
+        "color": "rgb(255, 255, 255)",
+		"opacity": 1,
+        "fillcolor": "rgb(255, 255, 255)",
+		"fillopacity": 0.9,
+		"width": 1.0,
+		"zindex": 100,
+		"label": "imgs",
+		"layer": "imgs",
+		"infoWindowHtml": "C:/tmp/thuba.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [105.063807, 9.816702, -5.000], [105.071541,9.816702,-5.000], [105.071541,9.824261,-5.000], [105.063807,9.824261,-5.000]
+        ]
+      }
+    }
+  ]
+}
